@@ -28,7 +28,7 @@ jobs:
         run: npm install
 
       # Build project
-      - name: Build project
+      - name: Build project 
         run: npm run-script build
         
       # Push to Github Pages
